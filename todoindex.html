@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding -->
+  <meta charset="UTF-8">
+
+  <!-- Responsive design for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Todo App</title>
+  <link rel="stylesheet" href="todostyle.css">
+
+  <!-- Linking external CSS file -->
+  <link rel="stylesheet" href="todostyle.css">
+</head>
+<body>
+
+  <!-- Main container that holds the whole app -->
+  <div class="container">
+
+    <!-- Heading of the app -->
+    <h1>My To-do List</h1>
+
+    <!-- Section for input and add button -->
+    <div class="input-section">
+
+      <!-- Input field where user types task -->
+      <input type="text" id="todo-input" placeholder="Enter a task">
+
+      <!-- Button to add task -->
+      <button id="add-btn">Add</button>
+
+    </div>
+
+    <!-- Unordered list where tasks will be added dynamically -->
+    <ul id="todo-list"></ul>
+
+  </div>
+
+  <!-- Linking external JavaScript file -->
+  <script src="todoscript.js"></script>
+
+</body>
+</html>
